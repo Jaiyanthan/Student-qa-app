@@ -1,0 +1,27 @@
+.question_box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.question_box:hover{
+  border: 1px solid gray
+}
+.questionBox_info{
+   display: flex;
+   align-items: center;
+}
+.questionBox_input{
+  display: flex;
+  margin-top: -8px;
+}
+.questionBox_input > p{
+    font-weight: 400;
+    font-size: large;
+  }
+.questionBox_info > h5{
+   margin-left: 10px;
+}

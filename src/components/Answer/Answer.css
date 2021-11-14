@@ -1,0 +1,9 @@
+
+.answers_image{
+    display: flex;
+    align-items: center;
+}
+.answer_image{
+    height: 40%;
+    width: 50%;
+}
